@@ -1,5 +1,7 @@
 :root{
     --primary: #198754;
+    --grey-black: #111111;
+    --white: #fff;
 }
 /* Navbar */
 .nav-end{}
@@ -14,3 +16,18 @@
 }
 
 /* Footer */
+.footer{
+    background-color: var(--grey-black);
+    color: var(--white);
+}
+.footer h3 a{
+    text-decoration: none;
+    color: var(--white);
+}
+.footer li{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: var(--white);
+}
