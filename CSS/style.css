@@ -31,3 +31,11 @@
     text-decoration: none;
     color: var(--white);
 }
+/* footer bottom */
+.footer-bottom{
+    background-color: #000;
+    color: var(--white);
+}
+.copyright{
+    
+}
