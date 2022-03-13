@@ -47,6 +47,17 @@
     background-color: var(--white);
     color: var(--orange);
 }
+/* swiper slider */
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide{}
+.swiper-slide img{
+    width: 100%;
+}
+
+
 /* our product */
 .product-section{}
 .filter-list{
