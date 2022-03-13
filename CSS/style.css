@@ -14,7 +14,31 @@
     font-size: 20px;
     font-weight: bold;
 }
-
+/* latest news */
+.latest-news{}
+.latest-news-title-box{}
+.latest-news-title-box h2{}
+.latest-news-title-box p{}
+.latest-inner{
+    position: relative;
+    overflow: hidden;
+}
+.latest-inner img{
+    transition: .5s;
+}
+.latest-inner img:hover{
+    transform: scale(1.3);
+}
+.latest-news h4{
+    font-size: 20px;
+}
+.latest-news h4:hover{
+    color: var(--primary);
+}
+.latest-news  .admin{
+    color: rgb(168, 168, 168);
+}
+.latest-news p{}
 /* Footer */
 .footer{
     background-color: var(--grey-black);
